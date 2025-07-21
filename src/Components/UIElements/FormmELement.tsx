@@ -26,7 +26,7 @@ function FormElement({
   className,
   value,
   
-  defaultType,
+
   isRequired,
   onDelete,
   onFieldNameChange,
