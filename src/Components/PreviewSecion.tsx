@@ -1,6 +1,6 @@
 
 import { useSchema } from '@/store/store';
-import React, { type JSX } from 'react'
+import  { type JSX } from 'react'
 // import nestedObject from '@/DemoData/Data';
 
 type JSONData  = number | string | boolean | null | { [key: string]: JSONData } | JSONData[] |object;

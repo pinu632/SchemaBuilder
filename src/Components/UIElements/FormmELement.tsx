@@ -1,4 +1,4 @@
-import React, { type JSX } from 'react'
+import  { type JSX } from 'react'
 import { Input } from '../ui/input'
 import { ComboboxBox } from './DropDownMenu'
 import { SwitchElement } from './switch'
@@ -25,8 +25,7 @@ function FormElement({
   fieldId,
   className,
   value,
-  defaultValue,
-  dataType,
+  
   defaultType,
   isRequired,
   onDelete,
@@ -46,7 +45,7 @@ function FormElement({
       />
 
       <ComboboxBox
-        defaultType={defaultType}
+        
         onSelect={(val) => onDataTypeChange?.(val)}
         
       />
